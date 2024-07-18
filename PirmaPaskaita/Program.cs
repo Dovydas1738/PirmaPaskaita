@@ -440,3 +440,6 @@
 //{
 //    Console.WriteLine("skaicius yra lyginis");
 //}
+
+
+//10 nepadariau ir 6 is papildomu
