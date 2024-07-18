@@ -423,6 +423,7 @@
 //int newKint5 = newKintGen5.Next(1000, 9999);
 //int newKint6 = newKintGen6.Next(1000, 9999);
 
+// nu noreciau su list'u geriau daryt :D
 
 //PAPILDOMA 5 uzduotis*********************************************************************
 
@@ -441,5 +442,84 @@
 //    Console.WriteLine("skaicius yra lyginis");
 //}
 
+//PAPILDOMA 6 uzduotis**********************************************************
 
-//10 nepadariau ir 6 is papildomu
+//Console.WriteLine("Iveskite simboli");
+
+//ConsoleKeyInfo keyInfo = Console.ReadKey();
+
+//char symbol = keyInfo.KeyChar;
+
+//char.ToLower(symbol);
+
+//Console.WriteLine();
+
+//switch (symbol)
+//{
+//    case 'a':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    case 'e':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    case 'i':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    case 'y':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    case 'o':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    case 'u':
+//        Console.WriteLine("Ivestas simbolis yra balsis");
+//        break;
+//    default:
+//        Console.WriteLine("Ivestas simbolis yra priebalsis");
+//        break;
+//}
+
+
+//PAPILDOMA 7 uzduotis******************************************************************
+
+//Console.WriteLine("Iveskite 7 dienu temperaturas");
+
+//float temp1 = float.Parse(Console.ReadLine());
+//float temp2 = float.Parse(Console.ReadLine());
+//float temp3 = float.Parse(Console.ReadLine());
+//float temp4 = float.Parse(Console.ReadLine());
+//float temp5 = float.Parse(Console.ReadLine());
+//float temp6 = float.Parse(Console.ReadLine());
+//float temp7 = float.Parse(Console.ReadLine());
+
+//float tempAvg = (temp1 + temp2 + temp3 + temp4 + temp5 + temp6 + temp7) / 7;
+
+//Console.WriteLine("7 dienu temperaturu vidurkis yra: " + Math.Round(tempAvg, 2));
+
+
+//PAPILDOMA 8 uzduotis***************************************************************
+
+//Console.WriteLine("Iveskite prekes kaina");
+//float initialPrice = float.Parse(Console.ReadLine());
+
+//Console.WriteLine("Iveskite PVM procenta");
+//float vatPercentage = float.Parse(Console.ReadLine());
+
+//float galutineKaina = initialPrice + initialPrice / 100 * vatPercentage;
+
+//Console.WriteLine("Galutine prekes kaina su PVM yra: " + Math.Round(galutineKaina, 2));
+
+
+//PAPILDOMA 9 uzduotis***************************************************************
+
+//Console.WriteLine("Iveskite savo svori");
+//float weight = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("Iveskite savo ugi");
+//float height = int.Parse(Console.ReadLine());
+
+//float kmi = weight / (height * height);
+
+//Console.WriteLine("Jusu kuno mases indeksas yra - " +  Math.Round(kmi * 10000, 2));
+
+// KMI skaiciuokliu web'uose raso xx,xx formatu, del to tas * 10000, kitaip labai mazas skaicius po kablelio gaunasi
